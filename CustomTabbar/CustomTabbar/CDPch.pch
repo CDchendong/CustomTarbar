@@ -22,4 +22,9 @@
 #import "UIView+Size.h"
 
 #import "UIButton+Edge.h"
+
+#import "NSString+Size.h"
+//屏幕大小
+#define WW [UIScreen mainScreen].bounds.size.width
+#define HH [UIScreen mainScreen].bounds.size.height
 #endif
