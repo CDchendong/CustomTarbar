@@ -26,6 +26,7 @@
 		B244C7B61F592DDF00845103 /* tabbar_send_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7A91F592DDF00845103 /* tabbar_send_selected@3x.png */; };
 		B244C7C51F59339400845103 /* tabar_plus_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7C41F59339400845103 /* tabar_plus_normal@2x.png */; };
 		B244C7CA1F593D6D00845103 /* ev_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7C91F593D6D00845103 /* ev_nav_back@2x.png */; };
+		F550E82B1F678057004EA5C3 /* CHD_ListView_Structure.m in Sources */ = {isa = PBXBuildFile; fileRef = F550E82A1F678057004EA5C3 /* CHD_ListView_Structure.m */; };
 		F58C12081F5D2789000C770D /* UIButton+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C11F31F5D2789000C770D /* UIButton+Edge.m */; };
 		F58C12091F5D2789000C770D /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C11F51F5D2789000C770D /* UIView+Size.m */; };
 		F58C120A1F5D2789000C770D /* CDNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C11F81F5D2789000C770D /* CDNavigationVC.m */; };
@@ -65,6 +66,8 @@
 		B244C7C01F592FCA00845103 /* CDPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPch.pch; sourceTree = "<group>"; };
 		B244C7C41F59339400845103 /* tabar_plus_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabar_plus_normal@2x.png"; sourceTree = "<group>"; };
 		B244C7C91F593D6D00845103 /* ev_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ev_nav_back@2x.png"; sourceTree = "<group>"; };
+		F550E8291F678057004EA5C3 /* CHD_ListView_Structure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHD_ListView_Structure.h; sourceTree = "<group>"; };
+		F550E82A1F678057004EA5C3 /* CHD_ListView_Structure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHD_ListView_Structure.m; sourceTree = "<group>"; };
 		F58C11F21F5D2789000C770D /* UIButton+Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Edge.h"; sourceTree = "<group>"; };
 		F58C11F31F5D2789000C770D /* UIButton+Edge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Edge.m"; sourceTree = "<group>"; };
 		F58C11F41F5D2789000C770D /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 		F58C11F11F5D2789000C770D /* CDCustom */ = {
 			isa = PBXGroup;
 			children = (
+				F550E8291F678057004EA5C3 /* CHD_ListView_Structure.h */,
+				F550E82A1F678057004EA5C3 /* CHD_ListView_Structure.m */,
 				F58C11F21F5D2789000C770D /* UIButton+Edge.h */,
 				F58C11F31F5D2789000C770D /* UIButton+Edge.m */,
 				F58C11F41F5D2789000C770D /* UIView+Size.h */,
@@ -361,6 +366,7 @@
 				B2178BEB1F57EC810025ADFC /* AppDelegate.m in Sources */,
 				F58C122F1F5D4349000C770D /* NSString+Size.m in Sources */,
 				F58C120A1F5D2789000C770D /* CDNavigationVC.m in Sources */,
+				F550E82B1F678057004EA5C3 /* CHD_ListView_Structure.m in Sources */,
 				F58C12081F5D2789000C770D /* UIButton+Edge.m in Sources */,
 				F58C12241F5D2806000C770D /* CDThreeVC.m in Sources */,
 				F58C12251F5D2806000C770D /* CDTwoVC.m in Sources */,

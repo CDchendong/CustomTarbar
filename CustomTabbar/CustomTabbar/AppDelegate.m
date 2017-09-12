@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import "CDTabbarVC.h"
+
+#import "CHD_ListView_Structure.h"
+
 @interface AppDelegate ()
 @property (nonatomic, strong) CDTabbarVC *tabbar;
 @end
@@ -22,6 +25,7 @@
     self.tabbar = [[CDTabbarVC alloc] init];
     self.window.rootViewController = self.tabbar;
     [self.window makeKeyAndVisible];
+    [CHD_ListView_Structure openStructureShow_TableV:YES collectionV:YES];
     return YES;
 }
 
