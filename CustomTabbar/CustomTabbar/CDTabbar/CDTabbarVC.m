@@ -43,7 +43,7 @@
 }
 - (void)tabBar:(UITabBar *)tabBar didSelectItem:(UITabBarItem *)item
 {
-    NSLog(@" --- %@", item.title);
+    //NSLog(@" --- %@", item.title);
    
 }
 

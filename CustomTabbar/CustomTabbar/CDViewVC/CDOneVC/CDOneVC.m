@@ -8,6 +8,7 @@
 
 #import "CDOneVC.h"
 #import "CDOneCell.h"
+#import "MyObject.h"
 @interface CDOneVC ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *contentArray;
@@ -30,6 +31,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+
     _contentArray = [[NSArray alloc]initWithObjects:@"哦is联发科女阿卡就是当年 阿拉山口都发你啦阿里斯顿房间爱丽 阿萨德浪费即可芝士蛋糕老翁你啊，收到南方拉收到南方是劳动妇女阿金的反馈",
                      @"哦is联发科女阿卡就是当年 阿拉山口都发你啦阿里斯顿房间爱丽 阿萨德浪费即可芝士蛋糕老翁你啊，收到南方拉收到南方是劳动妇女阿金的反馈哦is联发科女阿卡就是当年 阿拉山口都发你啦阿里斯顿房间爱丽 阿萨德浪费即可芝士蛋糕老翁你啊，收到南方拉收到南方是劳动妇女阿金的反馈",
                      @"哦is联发科女阿卡就是当年 阿拉山口都发你啦阿里斯顿房间爱丽 阿萨德浪费即可芝士蛋糕老翁你啊，收到南方拉收到南方是劳动妇女阿金的反馈",

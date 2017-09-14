@@ -7,9 +7,7 @@
 //
 
 #import "CDTwoVC.h"
-
 @interface CDTwoVC ()<CAAnimationDelegate>
-
 @end
 
 @implementation CDTwoVC
@@ -18,12 +16,18 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
     
+    [self AnimationView];
+
+}
+
+- (void)AnimationView
+{
     UIButton *btn  = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(60, 100, 40, 40);
     btn.backgroundColor = [UIColor greenColor];
     [self.view addSubview:btn];
     
-
+    
     
     CAKeyframeAnimation * animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position";
@@ -54,9 +58,7 @@
     //apply animation
     btn.layer.position = CGPointMake(0, 268);
     [btn.layer addAnimation:animation forKey:nil];
-
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -26,6 +26,7 @@
 		B244C7B61F592DDF00845103 /* tabbar_send_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7A91F592DDF00845103 /* tabbar_send_selected@3x.png */; };
 		B244C7C51F59339400845103 /* tabar_plus_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7C41F59339400845103 /* tabar_plus_normal@2x.png */; };
 		B244C7CA1F593D6D00845103 /* ev_nav_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7C91F593D6D00845103 /* ev_nav_back@2x.png */; };
+		F54FFADB1F6A58780024EDD7 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F54FFADA1F6A58780024EDD7 /* MyObject.m */; };
 		F550E82B1F678057004EA5C3 /* CHD_ListView_Structure.m in Sources */ = {isa = PBXBuildFile; fileRef = F550E82A1F678057004EA5C3 /* CHD_ListView_Structure.m */; };
 		F58C12081F5D2789000C770D /* UIButton+Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C11F31F5D2789000C770D /* UIButton+Edge.m */; };
 		F58C12091F5D2789000C770D /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F58C11F51F5D2789000C770D /* UIView+Size.m */; };
@@ -66,6 +67,8 @@
 		B244C7C01F592FCA00845103 /* CDPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPch.pch; sourceTree = "<group>"; };
 		B244C7C41F59339400845103 /* tabar_plus_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabar_plus_normal@2x.png"; sourceTree = "<group>"; };
 		B244C7C91F593D6D00845103 /* ev_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ev_nav_back@2x.png"; sourceTree = "<group>"; };
+		F54FFAD91F6A58780024EDD7 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		F54FFADA1F6A58780024EDD7 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		F550E8291F678057004EA5C3 /* CHD_ListView_Structure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHD_ListView_Structure.h; sourceTree = "<group>"; };
 		F550E82A1F678057004EA5C3 /* CHD_ListView_Structure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHD_ListView_Structure.m; sourceTree = "<group>"; };
 		F58C11F21F5D2789000C770D /* UIButton+Edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Edge.h"; sourceTree = "<group>"; };
@@ -132,8 +135,8 @@
 				F58C11FD1F5D2789000C770D /* CDViewVC */,
 				B244C79C1F592DDF00845103 /* tab */,
 				B2178BE91F57EC810025ADFC /* AppDelegate.h */,
-				F58C122B1F5D3430000C770D /* nodata@2x.png */,
 				B2178BEA1F57EC810025ADFC /* AppDelegate.m */,
+				F58C122B1F5D3430000C770D /* nodata@2x.png */,
 				B244C7C01F592FCA00845103 /* CDPch.pch */,
 				B2178BF21F57EC810025ADFC /* Assets.xcassets */,
 				B2178BF41F57EC810025ADFC /* LaunchScreen.storyboard */,
@@ -184,6 +187,8 @@
 				F58C11F51F5D2789000C770D /* UIView+Size.m */,
 				F58C122D1F5D4349000C770D /* NSString+Size.h */,
 				F58C122E1F5D4349000C770D /* NSString+Size.m */,
+				F54FFAD91F6A58780024EDD7 /* MyObject.h */,
+				F54FFADA1F6A58780024EDD7 /* MyObject.m */,
 			);
 			path = CDCustom;
 			sourceTree = "<group>";
@@ -362,6 +367,7 @@
 			files = (
 				F58C122A1F5D29AF000C770D /* CDOneCell.m in Sources */,
 				F58C120B1F5D2789000C770D /* CDTabBar.m in Sources */,
+				F54FFADB1F6A58780024EDD7 /* MyObject.m in Sources */,
 				F58C12211F5D2806000C770D /* CDFourVC.m in Sources */,
 				B2178BEB1F57EC810025ADFC /* AppDelegate.m in Sources */,
 				F58C122F1F5D4349000C770D /* NSString+Size.m in Sources */,
@@ -488,7 +494,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "/Users/dongchen/Desktop/自定义tarbar/CustomTabbar/CustomTabbar/CDPch.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomTabbar/CDPch.pch";
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -501,7 +508,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "/Users/dongchen/Desktop/自定义tarbar/CustomTabbar/CustomTabbar/CDPch.pch";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomTabbar/CDPch.pch";
 				INFOPLIST_FILE = CustomTabbar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
