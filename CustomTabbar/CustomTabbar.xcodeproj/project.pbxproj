@@ -67,6 +67,8 @@
 		B244C7C01F592FCA00845103 /* CDPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPch.pch; sourceTree = "<group>"; };
 		B244C7C41F59339400845103 /* tabar_plus_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabar_plus_normal@2x.png"; sourceTree = "<group>"; };
 		B244C7C91F593D6D00845103 /* ev_nav_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ev_nav_back@2x.png"; sourceTree = "<group>"; };
+		F52488311F7E1C470065AD80 /* cd_cycleImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd_cycleImage@2x.png"; sourceTree = "<group>"; };
+		F52488321F7E1C470065AD80 /* cd_cycleSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cd_cycleSmall@2x.png"; sourceTree = "<group>"; };
 		F54FFAD91F6A58780024EDD7 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
 		F54FFADA1F6A58780024EDD7 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		F550E8291F678057004EA5C3 /* CHD_ListView_Structure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHD_ListView_Structure.h; sourceTree = "<group>"; };
@@ -135,6 +137,8 @@
 				F58C11FD1F5D2789000C770D /* CDViewVC */,
 				B244C79C1F592DDF00845103 /* tab */,
 				B2178BE91F57EC810025ADFC /* AppDelegate.h */,
+				F52488311F7E1C470065AD80 /* cd_cycleImage@2x.png */,
+				F52488321F7E1C470065AD80 /* cd_cycleSmall@2x.png */,
 				B2178BEA1F57EC810025ADFC /* AppDelegate.m */,
 				F58C122B1F5D3430000C770D /* nodata@2x.png */,
 				B244C7C01F592FCA00845103 /* CDPch.pch */,

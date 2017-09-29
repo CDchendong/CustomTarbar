@@ -50,7 +50,7 @@
 - (void)InitView
 {
     self.view.backgroundColor = [UIColor whiteColor];
-    NSArray *titles = @[@"发现", @"奖赏", @"消息", @"我的"];
+    NSArray *titles = @[@"列表", @"动画", @"消息", @"我的"];
     NSArray *images = @[@"tabbar_home@3x", @"tabbar_reward@3x", @"tabbar_message_center@3x", @"tabbar_profile@3x"];
     NSArray *selectedImages = @[@"tabbar_home_selected@3x", @"tabbar_reward_selected@3x", @"tabbar_message_center_selected@3x", @"tabbar_profile_selected@3x"];
     CDOneVC * oneVc = [[CDOneVC alloc] init];

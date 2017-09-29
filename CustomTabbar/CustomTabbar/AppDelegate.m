@@ -25,7 +25,7 @@
     self.tabbar = [[CDTabbarVC alloc] init];
     self.window.rootViewController = self.tabbar;
     [self.window makeKeyAndVisible];
-    [CHD_ListView_Structure openStructureShow_TableV:YES collectionV:YES];
+    //[CHD_ListView_Structure openStructureShow_TableV:YES collectionV:YES];
     return YES;
 }
 
